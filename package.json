@@ -1,27 +1,32 @@
 {
-    "name": "darx-theme",
-    "displayName": "Darx Theme",
-    "description": "Modified Dark+ With Different Syntax Highlighting",
-    "publisher": "Foible",
-    "version": "0.3.0",
-    "icon": "icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/The-Foible/darx-theme.git"
-    },
-    "engines": {
-        "vscode": "^1.62.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Darx",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darx.json"
-            }
-        ]
-    }
+  "name": "darx-theme",
+  "displayName": "Darx Theme",
+  "description": "Modified Dark+ With Different Syntax Highlighting",
+  "publisher": "Foible",
+  "version": "0.3.0",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Foible/darx-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darx",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darx.json"
+      },
+      {
+        "label": "Darx Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darx-modern.json"
+      }
+    ]
+  }
 }
