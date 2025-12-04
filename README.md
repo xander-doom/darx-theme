@@ -1,2 +1,3 @@
 # darx-theme
-Darx theme for VSCode.
+
+Alternate text coloring for Dark and Dark Modern stock themes.
